@@ -1,0 +1,146 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+.body{
+    margin:0;
+    padding: 0;
+    height:100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+
+
+}
+    
+
+.Menu{
+    margin-top: 10px;
+    background: white
+}
+.menubar{
+    background:rgb(0,255,0);
+    -webkit-text-fill-color:black
+}
+.menubar ul{
+    display: inline-flex;
+    list-style: none;
+    color:white
+}
+.menubar ul li{
+    margin: 5px;
+    width: 50px;
+    padding: 1px;
+    color:white
+}
+.menubar ul li a{
+    text-decoration: none;
+    color:black
+}
+.active:hover{
+    background:rgb(0, 200, 0);
+    border-radius: 70px;
+    box-sizing: border-box;
+    position: absolute;
+
+}
+.active1:hover{
+    background:rgb(0, 200, 0);
+    border-radius: 3px;
+    }
+
+.slider{
+    width: -100px;
+    height: 3px;
+    border-radius:-20px;
+    
+
+}
+.sliders{
+    width: 80%;
+    height: 20%;
+    display:flex;
+    /* overflow: hidden; */
+
+
+
+}
+/* .overflow{
+    overflow:hidden;
+} */
+.sliders input{
+    display: none;
+}
+.slide{
+    width: 30%;
+    transition: 2s;
+}
+    
+
+/* }
+.slide1 img{
+    width:800px;
+    height: 500px;
+
+}
+.slide2 img{
+    width:330px;
+    height:400px;
+}
+.slide3 img{
+    width:300px;
+    height:400px;
+}
+.slide4 img{
+    width:300px;
+    height:400px;
+} */
+/* css for manual slide navigation */
+.navigation-Manual{
+    position:absolute;
+    width:800px;
+    margin-top:300px;
+    margin-left:150px;
+    display:flex;
+    justify-content:center;
+
+}
+.manual-btn{
+    border:3px solid #2C2C2C;
+    padding:5px;
+    border-radius: 500px;
+    cursor:pointer;
+    transition:1s;
+}
+.manual-btn:not(:last-child){
+    margin-right: 40px;
+}
+
+.manual-btn:hover{
+    background:#2C2C2C;
+}
+#radio1:checked ~ .first{
+    margin-left:0;
+
+}
+#radio2:checked ~ .first{
+    margin-left:-20%;
+    
+}
+#radio3:checked ~ .first{
+    margin-left:-40%;
+    
+}
+#radio4:checked ~ .first{
+    margin-left:-60%;
+    
+}
+    
+
+.gatecode{
+    margin-left: 800px;
+    
+}
+
